@@ -10,7 +10,7 @@
 
 1. STM32F429IGT6最小系统板——控制板
 
-   > STM32F429IGT6 Minimum System Board - Control Board(MCU)
+   > STM32F429IGT6 Minimum System Board - Control Board (MCU)
 
 2. TJA1050 CAN总线通信模块
 
@@ -28,23 +28,23 @@
 
    > RMDS-107 DC Motor Driver
 
-控制板使用UART1和2接口与蓝牙模块通信，发送指令接受信号强度回传。  
+控制板使用 UART 1 和 2 接口与蓝牙模块通信，发送指令接受信号强度回传。  
 
-The MCU communicates with the Bluetooth Module using the UART1 and 2 interfaces, and sends commands to receive signal strength backhaul.    
+The MCU communicates with the Bluetooth Module using the UART 1 and 2 interfaces, and sends commands to receive signal strength backhaul.    
 
-UART7接口用于测试调试，PI9和PA12是CAN协议通信引脚，通过TJA1050模块转换接入CAN总线，对电机驱动器进行控制。    
+UART 7 接口用于测试调试，PI9 和 PA12 是 CAN 协议通信引脚，通过 TJA1050 模块转换接入 CAN 总线，对电机驱动器进行控制。    
 
-The UART7 interface is used for test debugging. PI9 and PA12 are CAN Bus Communication pins. The TJA1050 Module is connected to the CAN Bus to control the Motor Driver.    
+The UART 7 interface is used for test debugging. PI9 and PA12 are CAN Bus Communication pins. The TJA1050 Module is connected to the CAN Bus to control the Motor Driver.    
 
-CAN总线两端各接入一个120Ω的电阻，每个驱动器控制一个直流编码电机，Encoder接口接入编码器的AB相信号线和5V电源线和地线，Motor线接入电机的正负极。  
+CAN总线两端各接入一个120Ω的电阻，每个驱动器控制一个直流编码电机，Encoder 接口接入编码器的 AB 相信号线和 5V 电源线和地线，Motor 线接入电机的正负极。  
 
 Each **120Ω Resistor** is connected to each end of the CAN Bus. Each Driver controls a DC-coded motor. The `Encoder` interface is connected to the AB-phase signal line of the Encoder and the `5V` and `GND`. The `motor` line is connected to the `+` and `-` of the Motor.   
 
-使用控制板的计时器TIM3的四个通道对应的引脚，接受超声波传感器的回传信号，使用控制板的PD10-PD13四个GPIO引脚向超声波模块传输触发信号。  
+使用 MCU 上 TIM 3 计时器的四个通道对应的引脚，接受超声波传感器的回传信号，使用控制板的 PD10-PD13 四个 GPIO 引脚向超声波模块传输触发信号。  
 
 Use the corresponding pin of the 4 channels of TIM3 on the MCU to receive the return signal of the Ultrasonic Sensor, and use the four GPIO pins from PD10 to PD13 on the MCU to trigger 4 Ultrasonic Modules.   
 
-**控制板由锂电池接入电源模块降压提供的3.3V电源供电，驱动器电源由锂电池直接接入，使用12V电源，驱动器直接为编码器和电机供电。**传感器使用的5V电源由控制板内置的变压模块提供。  
+**控制板由锂电池接入电源模块降压提供的 3.3V 电源供电，驱动器电源由锂电池直接接入，使用 12V 电源，驱动器直接为编码器和电机供电。**传感器使用的 5V 电源由控制板内置的变压模块提供。  
 
 The MCU is powered by a 3.3V power supply which voltage was reduced by a  Power Module from a Lithium Battery. The Driver's power supply is directly connected to the Lithium Battery. The 12V power supply is used, and the Driver directly supplies power to the Encoder and the Motor. The 5V power supply used by Sensors is provided by the transformer built-in the MCU.    
 
