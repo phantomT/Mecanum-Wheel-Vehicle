@@ -4,7 +4,7 @@
 
 ### 电路连线-Circuit Connection：
 
-![](.\电路图截屏.PNG)
+![](https://github.com/phantomT/Mecanum-Wheel-Vehicle/blob/master/%E7%94%B5%E8%B7%AF%E5%9B%BE%E6%88%AA%E5%B1%8F.PNG)
 
 ### 电路元件-Circuit Components：
 
@@ -54,7 +54,7 @@ The MCU is powered by a 3.3V power supply which voltage was reduced by a  Power 
 
 ## 机械设计-Mechanical Design
 
-![](.\机械图截屏.png)
+![](https://github.com/phantomT/Mecanum-Wheel-Vehicle/blob/master/%E6%9C%BA%E6%A2%B0%E5%9B%BE%E6%88%AA%E5%B1%8F.png)
 
 机械图纸包含在`Mechanics`文件夹里  
 
