@@ -50,7 +50,7 @@ The MCU is powered by a 3.3V power supply which voltage was reduced by a  Power 
 
 **程序中只包含CAN总线通信与电机驱动部分代码。**  
 
-**The program only contains the CAN bus communication and motor driver  code. **     
+The program only contains the CAN bus communication and motor driver  code.      
 
 ## 机械设计-Mechanical Design
 
@@ -64,7 +64,7 @@ Mechanical drawings are included in the `Mechanics` folder.
 
 **程序中只包含CAN总线通信与电机驱动部分代码。**  
 
-** The program only contains the CAN bus communication and motor driver  code.  **   
+The program only contains the CAN bus communication and motor driver  code.    
 
 CAN总线程序与电机驱动程序移植自`Robomodule`厂家提供的库函数模板。  
 
