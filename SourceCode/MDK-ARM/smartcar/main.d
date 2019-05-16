@@ -1,0 +1,34 @@
+smartcar\main.o: ../Src/main.c
+smartcar\main.o: ../Inc/main.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+smartcar\main.o: ../Inc/stm32f4xx_hal_conf.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+smartcar\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+smartcar\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
+smartcar\main.o: ../Drivers/CMSIS/Include/core_cm4.h
+smartcar\main.o: D:\Keil 524\ARM\ARMCC\Bin\..\include\stdint.h
+smartcar\main.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+smartcar\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+smartcar\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+smartcar\main.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+smartcar\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+smartcar\main.o: D:\Keil 524\ARM\ARMCC\Bin\..\include\stdio.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+smartcar\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+smartcar\main.o: ../Inc/can.h
+smartcar\main.o: ../Inc/usart.h
+smartcar\main.o: ../Inc/gpio.h
